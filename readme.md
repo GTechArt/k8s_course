@@ -9,3 +9,9 @@
 4. create dashboard : ```minikube dashboard --port=63840``` -> (http://localhost:63840/)
 5. Clone image docker webchat : ```kubectl create deployment synergychat-web --image=docker.io/bootdotdev/synergychat-web:latest```
 6. install Envoy Gateway : ```kubectl apply --server-side -f https://github.com/envoyproxy/gateway/releases/download/v1.5.1/install.yaml```
+
+
+## For submit commands to bootdev
+
+1. ```kubectl proxy```
+2. ```minikube tunnel -c```
