@@ -15,3 +15,6 @@
 
 1. ```kubectl proxy```
 2. ```minikube tunnel -c```
+3. add metric server: ```minikube addons enable metrics-server```
+    -> verify: ```kubectl -n kube-system get pod```
+    -> CLI for top pod: ```kubectl top pod```
